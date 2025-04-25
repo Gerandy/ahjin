@@ -73,14 +73,19 @@ export const About = () => {
               </div>
               <br></br>
               <div>Connect with me 
-                 <a href="#fb" className="ml-5 ">
+                 <a href="#fb" className="ml-3 ">
                       <button
+<<<<<<< HEAD
                         img src="src/assets/john profile.jpg"
                         type="button"
                         data-twe-ripple-init
                         data-twe-ripple-color="light"
                         className="mb-2 inline-block rounded bg-[#1877f2] hover:scale-110 px-2 py-2 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
                         
+=======
+                        type="button" className="  hover:scale-110 px-2 py-2 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
+                          <img src="src/assets/1.png" alt="fb" className="mb-2 inline-block rounded h-8 w-8"/>
+>>>>>>> 9b35d038f99b25fd2cfd63e120b4160b412e5f48
                       </button>
                   </a>
               </div>
