@@ -29,7 +29,7 @@ export const MobileMenu = ({menuOpen, setMenuOpen}) => {
         `}>
                     Home
                   </a>
-                  <a href="#About" 
+                  <a href="#about" 
                   onClick={() => setMenuOpen(false)} 
                   className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
                               transition relative overflow-hidden hover:-translate-y-1.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]
@@ -40,7 +40,7 @@ export const MobileMenu = ({menuOpen, setMenuOpen}) => {
             `}>
                     About
                   </a>
-                  <a href="#Project"
+                  <a href="#projects"
                   onClick={() => setMenuOpen(false)}
                   className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
                               transition relative overflow-hidden hover:-translate-y-1.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]
@@ -51,7 +51,7 @@ export const MobileMenu = ({menuOpen, setMenuOpen}) => {
             `}>
                     Project
                   </a>
-                  <a href="#Contacts"
+                  <a href="#contact"
                   onClick={() => setMenuOpen(false)}
                   className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
                               transition relative overflow-hidden hover:-translate-y-1.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]

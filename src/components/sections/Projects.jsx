@@ -126,13 +126,12 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">Real-Time Chat App</h3>
+              <h3 className="text-xl font-bold mb-2">AHJIN GUILD PORTFOLIO</h3>
               <p className="text-gray-400 mb-4">
-                Scalable chat platform supporting real-time messaging, presence,
-                and group chat features.
+                A portfolio designed by Ahjin Guild to showcase each of the members backgrounds and the project of the team.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Socket.IO", "Express", "React", "Redis"].map((tech, key) => (
+                {["NodeJS","Tailwind CSS","HTML","JAVASCRIPT","CSS","ReactJS"].map((tech, key) => (
                   <span
                     key={key}
                     className="
