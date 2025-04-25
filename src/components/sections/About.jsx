@@ -64,7 +64,7 @@ export const About = () => {
           {/*======================================1ST USER=========================================================*/}
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
           <div className="flex items-center">
-              <img className=" h-40 w-40 mr-5 rounded-[100px]" src="src/assets/erwinProfile.png"> 
+              <img className=" h-40 w-40 mr-5 rounded-[100px]" src="src/assets/gerandy profile.jpg"> 
               </img>
                 <p className="mt-6 text-[30px] font-bold mb-8 bg-gradient-to-r from-violet-500 to-purple-400 bg-clip-text text-transparent text-center">
                   Gerandy Ernest J. Buensuceso
@@ -234,7 +234,7 @@ export const About = () => {
           {/*======================================3RD USER=========================================================*/}
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
           <div className="flex items-center">
-              <img className=" h-40 w-40 mr-5 rounded-[100px]" src="src/assets/erwinProfile.png">
+              <img className=" h-40 w-40 mr-5 rounded-[100px]" src="src/assets/john profile.jpg">
               </img>
                 <p className="mt-6 text-[30px] font-bold mb-8 bg-gradient-to-r from-violet-500 to-purple-400 bg-clip-text text-transparent text-center">
                   John Car Michael D. Delos Reyes
@@ -316,7 +316,7 @@ export const About = () => {
           {/*======================================4TH USER=========================================================*/}
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
           <div className="flex items-center">
-              <img className=" h-40 w-40 mr-5 rounded-[100px]" src="src/assets/erwinProfile.png">
+              <img className=" h-40 w-40 mr-5 rounded-[100px]" src="src/assets/noer profile.png">
               </img>
                 <p className="mt-6 text-[30px] font-bold mb-8 bg-gradient-to-r from-violet-500 to-purple-400 bg-clip-text text-transparent text-center">
                   Noer Jan C. Cleofe
@@ -399,7 +399,7 @@ export const About = () => {
           {/*======================================5TH USER=========================================================*/}
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
           <div className="flex items-center">
-              <img className=" h-40 w-40 mr-5 rounded-[100px]" src="src/assets/erwinProfile.png">
+              <img className=" h-40 w-40 mr-5 rounded-[100px]" src="src/assets/reween profile.jpg">
               </img>
                 <p className="mt-6 text-[30px] font-bold mb-8 bg-gradient-to-r from-violet-500 to-purple-400 bg-clip-text text-transparent text-center">
                   Reween O. Rambonanza
