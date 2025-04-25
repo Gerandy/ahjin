@@ -3,6 +3,11 @@ import { RevealOnScroll } from "../RevealOnScroll";
 import emailjs from "emailjs-com";
 
 export const Contact = () => {
+  // Define EmailJS IDs directly here
+  const SERVICE_ID = "service_dcgcku9"; 
+  const TEMPLATE_ID = "template_cuha3dj"; 
+  const PUBLIC_KEY = "vAAVHkOGPWCM3a7v_"; 
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -13,12 +18,7 @@ export const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm(
-        import.meta.env.VITE_SERVICE_ID,
-        import.meta.env.VITE_TEMPLATE_ID,
-        e.target,
-        import.meta.env.VITE_PUBLIC_KEY
-      )
+      .sendForm(SERVICE_ID, TEMPLATE_ID, e.target, PUBLIC_KEY)
       .then((result) => {
         alert("Message Sent!");
         setFormData({ name: "", email: "", message: "" });
@@ -34,7 +34,6 @@ export const Contact = () => {
       <RevealOnScroll>
         <div className="px-4 w-full min-w-[300px] md:w-[500px] sm:w-2/3 p-6">
           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-violet-500 to-purple-400 bg-clip-text text-transparent text-center">
-            {" "}
             Get In Touch
           </h2>
           <form className="space-y-6" onSubmit={handleSubmit}>
@@ -92,8 +91,6 @@ export const Contact = () => {
           </form>
         </div>
       </RevealOnScroll>
-      <div></div>
     </section>
-    
   );
 };

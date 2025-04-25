@@ -13,7 +13,7 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
             <div className="flex justify-between items-center h-16">
                 <a href="#home" className="font-mono text-xl font-bold text-white">
                     {" "}
-                    <div className="flex justify-between items-center"><img className="h-15 w-15" src="src/assets/ahjinLogo.png"></img>Ahjin<span className="text-purple-500">.guild</span></div>                
+                    <div className="flex justify-between items-center"><img className="h-12 w-12 mr-2" src="src/assets/ahjinLogo.png"></img>Ahjin<span className="text-purple-500">.guild</span></div>                
                 </a>
                 <div className="w-7 h5 relative cursor-pointer z-40 md:hidden hover:scale-110" onClick={() => setMenuOpen((prev) => !prev)}>
                   &#9776;
