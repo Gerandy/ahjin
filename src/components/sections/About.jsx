@@ -76,7 +76,13 @@ export const About = () => {
                  <a href="#fb" className="ml-3 ">
                       <button
                         type="button" className="  hover:scale-110 px-2 py-2 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
-                          <img src="src/assets/1.png" alt="fb" className="mb-2 inline-block rounded h-8 w-8"/>
+                          <img src="src/assets/1.png" alt="fb" className="mb-2 inline-block rounded h-8 w-8 hover:shadow-[0_2px_8px_rgba(192,132,252,0.4)]"/>
+                      </button>
+                  </a>
+                  <a href="#ig">
+                      <button
+                        type="button" className="  hover:scale-110 px-2 py-2 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
+                          <img src="src/assets/2.png" alt="ig" className="mb-2 inline-block rounded h-8 w-8 hover:shadow-[0_2px_8px_rgba(192,132,252,0.4)]"/>
                       </button>
                   </a>
               </div>
@@ -119,7 +125,7 @@ export const About = () => {
                 </div>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-              <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+              <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all hover:shadow-[0_2px_8px_rgba(168,85,247,0.9)]">
                 <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
                 <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
@@ -140,7 +146,7 @@ export const About = () => {
                   </li>
                 </ul>
               </div>
-              <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+              <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all hover:shadow-[0_2px_8px_rgba(168,85,247,0.9)]">
                 <h3 className="text-xl font-bold mb-4"> 💼 Work Experience </h3>
                 <div className="space-y-4 text-gray-300">
                   <div>
@@ -169,6 +175,20 @@ export const About = () => {
                   <p className="mt-6 text-[30px] font-bold mb-8 bg-gradient-to-r from-violet-500 to-purple-400 bg-clip-text text-transparent text-center">
                     Erwin M. Vallez
                   </p>
+              </div><br></br>
+              <div>Connect with me 
+                 <a href="#fb" className="ml-3 ">
+                      <button
+                        type="button" className="  hover:scale-110 px-2 py-2 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
+                          <img src="src/assets/1.png" alt="fb" className="mb-2 inline-block rounded h-8 w-8 hover:shadow-[0_2px_8px_rgba(192,132,252,0.4)]"/>
+                      </button>
+                  </a>
+                  <a href="#ig">
+                      <button
+                        type="button" className="  hover:scale-110 px-2 py-2 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
+                          <img src="src/assets/2.png" alt="ig" className="mb-2 inline-block rounded h-8 w-8 hover:shadow-[0_2px_8px_rgba(192,132,252,0.4)]"/>
+                      </button>
+                  </a>
               </div>
               <p className="text-gray-300 mb-6">
                 Student from Bachelor of Science in Information Technology who's living a simple and humble life that is driven by the dream of becoming successful in my chosen field. I believe in working hard, staying focused, and enjoying the small things along the way. Admiring that one day not to be just successful, but also to have a peaceful and fulfilling life that's free from stress. With each step I take, I'm getting closer to the future I've always dreamed of.
@@ -208,7 +228,7 @@ export const About = () => {
                 </div>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-              <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+              <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all hover:shadow-[0_2px_8px_rgba(168,85,247,0.9)]">
                 <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
                 <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
@@ -229,7 +249,7 @@ export const About = () => {
                   </li>
                 </ul>
               </div>
-              <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+              <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all hover:shadow-[0_2px_8px_rgba(168,85,247,0.9)]">
                 <h3 className="text-xl font-bold mb-4"> 💼 Work Experience </h3>
                 <div className="space-y-4 text-gray-300">
                   <div>
@@ -250,6 +270,20 @@ export const About = () => {
                   <p className="mt-6 text-[30px] font-bold mb-8 bg-gradient-to-r from-violet-500 to-purple-400 bg-clip-text text-transparent text-center">
                     John Car Michael D. Delos Reyes
                   </p>
+              </div><br></br>
+              <div>Connect with me 
+                 <a href="#fb" className="ml-3 ">
+                      <button
+                        type="button" className="  hover:scale-110 px-2 py-2 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
+                          <img src="src/assets/1.png" alt="fb" className="mb-2 inline-block rounded h-8 w-8 hover:shadow-[0_2px_8px_rgba(192,132,252,0.4)]"/>
+                      </button>
+                  </a>
+                  <a href="#ig">
+                      <button
+                        type="button" className="  hover:scale-110 px-2 py-2 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
+                          <img src="src/assets/2.png" alt="ig" className="mb-2 inline-block rounded h-8 w-8 hover:shadow-[0_2px_8px_rgba(192,132,252,0.4)]"/>
+                      </button>
+                  </a>
               </div>
               <p className="text-gray-300 mb-6">
               I'm John Car Michael D. Delos Reyes, an IT student who is someone studying the principles and tools related to computer systems, networks, software, and data management. i believe being an IT is hard but with my dream of becoming a future game developer, i will pursue my dream to become a succesfull game dev and to learn more about the IT industry.
@@ -290,7 +324,7 @@ export const About = () => {
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-              <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+              <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all hover:shadow-[0_2px_8px_rgba(168,85,247,0.9)]">
                 <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
                 <ul className="list-disc list-inside text-gray-300 space-y-2">
                   <li>
@@ -311,7 +345,7 @@ export const About = () => {
                   </li>
                 </ul>
               </div>
-              <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+              <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all hover:shadow-[0_2px_8px_rgba(168,85,247,0.9)]">
                 <h3 className="text-xl font-bold mb-4"> 💼 Work Experience </h3>
                 <div className="space-y-4 text-gray-300">
                   <div>
@@ -332,6 +366,20 @@ export const About = () => {
                   <p className="mt-6 text-[30px] font-bold mb-8 bg-gradient-to-r from-violet-500 to-purple-400 bg-clip-text text-transparent text-center">
                     Noer Jan C. Cleofe
                   </p>
+              </div><br></br>
+              <div>Connect with me 
+                 <a href="#fb" className="ml-3 ">
+                      <button
+                        type="button" className="  hover:scale-110 px-2 py-2 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
+                          <img src="src/assets/1.png" alt="fb" className="mb-2 inline-block rounded h-8 w-8 hover:shadow-[0_2px_8px_rgba(192,132,252,0.4)]"/>
+                      </button>
+                  </a>
+                  <a href="#ig">
+                      <button
+                        type="button" className="  hover:scale-110 px-2 py-2 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
+                          <img src="src/assets/2.png" alt="ig" className="mb-2 inline-block rounded h-8 w-8 hover:shadow-[0_2px_8px_rgba(192,132,252,0.4)]"/>
+                      </button>
+                  </a>
               </div>
               <p className="text-gray-300 mb-6">
               Im an IT student who's still learning the fundamentals of coding.  Even if I might not be an expert just yet, I'm willing to develop and advance my abilities. I like experimenting with new technologies, figuring out issues, and coming up with creative fixes that simplify daily chores and I welcome any difficulties that may help me improve gradually.
@@ -372,7 +420,7 @@ export const About = () => {
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-              <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+              <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all hover:shadow-[0_2px_8px_rgba(168,85,247,0.9)]">
                 <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
                 <ul className="list-disc list-inside text-gray-300 space-y-2">
                   <li>
@@ -393,7 +441,7 @@ export const About = () => {
                   </li>
                 </ul>
               </div>
-              <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+              <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all hover:shadow-[0_2px_8px_rgba(168,85,247,0.9)]">
                 <h3 className="text-xl font-bold mb-4"> 💼 Work Experience </h3>
                 <div className="space-y-4 text-gray-300">
                   <div>
@@ -415,6 +463,20 @@ export const About = () => {
                   <p className="mt-6 text-[30px] font-bold mb-8 bg-gradient-to-r from-violet-500 to-purple-400 bg-clip-text text-transparent text-center">
                     Reween O. Rambonanza
                   </p>
+              </div><br></br>
+              <div>Connect with me 
+                 <a href="#fb" className="ml-3 ">
+                      <button
+                        type="button" className="  hover:scale-110 px-2 py-2 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
+                          <img src="src/assets/1.png" alt="fb" className="mb-2 inline-block rounded h-8 w-8 hover:shadow-[0_2px_8px_rgba(192,132,252,0.4)]"/>
+                      </button>
+                  </a>
+                  <a href="#ig">
+                      <button
+                        type="button" className="  hover:scale-110 px-2 py-2 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
+                          <img src="src/assets/2.png" alt="ig" className="mb-2 inline-block rounded h-8 w-8 hover:shadow-[0_2px_8px_rgba(192,132,252,0.4)]"/>
+                      </button>
+                  </a>
               </div>
               <p className="text-gray-300 mb-6">
               Hello, I'm Reween Rambonanza an aspiring IT currently pursuing my studies in Information Technology. I'm eager about learning how technology works and how it can be used to solve real-world problems. Although I'm still gaining experience, I’m also  exploring areas like web development, frame works such as reactJS, vue, also other fundamental in backend and I enjoy experimenting with new tools and technologies. I believe in continuous learning, and I'm always looking for opportunities to grow, improve my skills, and contribute to meaningful tech projects.
@@ -455,7 +517,7 @@ export const About = () => {
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-              <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+              <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all hover:shadow-[0_2px_8px_rgba(168,85,247,0.9)]">
                 <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
                 <ul className="list-disc list-inside text-gray-300 space-y-2">
                   <li>
@@ -477,7 +539,7 @@ export const About = () => {
 
                 </ul>
               </div>
-              <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+              <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all hover:shadow-[0_2px_8px_rgba(168,85,247,0.9)]">
                 <h3 className="text-xl font-bold mb-4"> 💼 Work Experience </h3>
                 <div className="space-y-4 text-gray-300">
                   <div>
