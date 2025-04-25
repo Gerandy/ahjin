@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 export const LoadingScreen = ({ onComplete }) => {
     const [text, setText] = useState("");
-    const fullText = "<Welcome To Ahjin Guild!/>";
+    const fullText = "<Will you Accept?/>";
 
     useEffect(() => {
         let index = 0;
