@@ -15,7 +15,7 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
                     {" "}
                     <div className="flex justify-between items-center">
                         <div className="flex items-center group cursor-pointer">
-                          <img className="h-12 w-12 mr-2 group-hover:scale-105" src="src/assets/ahjinLogo.png" alt="logo" />
+                          <img className="h-12 w-12 mr-2 group-hover:scale-105" src="./src/assets/ahjinLogo.png" alt="logo" />
                           <span className="text-gray-300 group-hover:text-purple-500 transition-colors duration-400 group-hover:scale-105 mr-1">Ahjin</span>
                           <span className="text-purple-500 group-hover:text-gray-300 transition-colors duration-400 group-hover:scale-105">.guild</span>
                         </div>
