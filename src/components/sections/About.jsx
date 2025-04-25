@@ -88,7 +88,9 @@ export const About = () => {
               </div>
               
               <p className="text-gray-300 mb-6">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, harum delectus porro tempora laborum numquam totam ducimus voluptatibus similique eum minus adipisci ea ut earum quasi suscipit amet dolores. Delectus.
+              Hey! I’m a 20-year-old IT student from Kawit, Cavite, currently in my 3rd year at CvSU Imus. Most days, you’ll find me wrestling with code, surviving on caffeine, and pretending I totally understand what the compiler is trying to tell me. I’m passionate about tech, curious about how things work, and always down to learn something new—even if it means a few mental breakdowns along the way. This portfolio is where I keep all the cool (and sometimes chaotic) stuff I’ve worked on. Take a look around!
+
+
               </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
