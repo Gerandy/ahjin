@@ -162,7 +162,7 @@ export const About = () => {
                 </p>
             </div>
             <p className="text-gray-300 mb-6">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis et laboriosam, sit odio reiciendis at. Itaque beatae architecto veritatis minima deserunt perspiciatis, omnis corporis voluptatem, suscipit eum nostrum. Dolorem?
+              Student from Bachelor of Science in Information Technology who's living a simple and humble life that is driven by the dream of becoming successful in my chosen field. I believe in working hard, staying focused, and enjoying the small things along the way. Admiring that one day not to be just successful, but also to have a peaceful and fulfilling life that's free from stress. With each step I take, I'm getting closer to the future I've always dreamed of.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
