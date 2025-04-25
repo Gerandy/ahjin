@@ -18,16 +18,19 @@ export const About = () => {
     >
       <RevealOnScroll>
         <div className="max-w-3xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
+          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-violet-500 to-purple-400 bg-clip-text text-transparent text-center">
             {" "}
             About Us
           </h2>
 
           {/*======================================1ST USER=========================================================*/}
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
+            <div className="flex items-center">
+              <img className=" h-40 w-40" src="src/assets/ahjinLogo.png"></img>
+              <p className="text-[30px] font-bold mb-8 bg-gradient-to-r from-violet-500 to-purple-400 bg-clip-text text-transparent text-center">Gerandy Ernest J. Buensuceso</p>
+            </div>
             <p className="text-gray-300 mb-6">
-              Passionate developer with expertise in building scalable web
-              applications and creating innovative solutions.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, harum delectus porro tempora laborum numquam totam ducimus voluptatibus similique eum minus adipisci ea ut earum quasi suscipit amet dolores. Delectus.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
