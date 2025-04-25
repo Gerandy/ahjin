@@ -243,7 +243,7 @@ export const About = () => {
                 </p>
             </div>
             <p className="text-gray-300 mb-6">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, totam necessitatibus. Neque, ducimus ex est earum praesentium placeat quidem ad, error assumenda obcaecati hic blanditiis, ab temporibus eius ea deleniti!.
+            I'm John Car Michael D. Delos Reyes, an IT student who is someone studying the principles and tools related to computer systems, networks, software, and data management. i believe being an IT is hard but with my dream of becoming a future game developer, i will pursue my dream to become a succesfull game dev and to learn more about the IT industry.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
