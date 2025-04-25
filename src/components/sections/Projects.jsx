@@ -33,7 +33,7 @@ export const Projects = () => {
 
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://github.com/Gerandy/HCI.git"
                   className="text-purple-400 hover:text-purple-300 transition-colors my-4"
                 >
                   View Project →
@@ -70,7 +70,7 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://github.com/Gerandy/saad.git"
                   className="text-purple-400 hover:text-purple-300 transition-colors my-4"
                 >
                   View Project →
@@ -110,7 +110,7 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://github.com/Gerandy/PHP-PROJECT.git"
                   className="text-purple-400 hover:text-purple-300 transition-colors my-4"
                 >
                   View Project →
@@ -148,7 +148,7 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center ">
                 <a
-                  href="#"
+                  href="https://github.com/Gerandy/ahjin.git"
                   className="text-purple-400 hover:text-purple-300 transition-colors my-4"
                 >
                   View Project →
