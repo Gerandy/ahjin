@@ -15,24 +15,24 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
                     {" "}
                     <div className="flex justify-between items-center"><img className="h-15 w-15" src="src/assets/ahjinLogo.png"></img>Ahjin<span className="text-purple-500">.guild</span></div>                
                 </a>
-                <div className="w-7 h5 relative cursor-pointer z-40 md:hidden" onClick={() => setMenuOpen((prev) => !prev)}>
+                <div className="w-7 h5 relative cursor-pointer z-40 md:hidden hover:scale-110" onClick={() => setMenuOpen((prev) => !prev)}>
                   &#9776;
                 </div>
 
                 <div className="hidden md:flex items-center space-x-8">
-                  <a href="#home" className="text-gray-300 hove:text-white transition-colors">
+                  <a href="#home" className="text-gray-300 hover:text-purple-400 transition-colors hover:scale-110">
                     {""}
                     Home{""}
                   </a>
-                  <a href="#about" className="text-gray-300 hove:text-white transition-colors">
+                  <a href="#about" className="text-gray-300 hover:text-purple-400 transition-colors hover:scale-110">
                     {""}
                     About{""}
                   </a>
-                  <a href="#projects" className="text-gray-300 hove:text-white transition-colors">
+                  <a href="#projects" className="text-gray-300 hover:text-purple-400 transition-colors hover:scale-110">
                     {""}
                     Project{""}
                   </a>
-                  <a href="#contact" className="text-gray-300 hove:text-white transition-colors">
+                  <a href="#contact" className="text-gray-300 hover:text-purple-400 transition-colors hover:scale-110">
                     {""}
                     Contacts{""}
                   </a>
