@@ -63,7 +63,51 @@ export const About = () => {
                 </div>
               </div>
             </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+            <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+              <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
+              <ul className="list-disc list-inside text-gray-300 space-y-2">
+                <li>
+                  <strong> B.S. in Computer Science </strong> - XYZ University
+                  (2016-2020)
+                </li>
+                <li>
+                  Relevant Coursework: Data Structures, Web Development, Cloud
+                  Computing...
+                </li>
+              </ul>
+            </div>
+            <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+              <h3 className="text-xl font-bold mb-4"> 💼 Work Experience </h3>
+              <div className="space-y-4 text-gray-300">
+                <div>
+                  <h4 className="font-semibold">
+                    {" "}
+                    Software Engineer at ABC Corp (2020 - Present){" "}
+                  </h4>
+                  <p>
+                    Developed and maintained microservices for cloud-based
+                    applications.
+                  </p>
+                </div>
+
+                <div>
+                  <h4 className="font-semibold">
+                    {" "}
+                    Intern at DEF Startups (2019){" "}
+                  </h4>
+                  <p>
+                    Assisted in building front-end components and integration
+                    REST APIs
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+            
           </div><br></br>
+          
           
           {/*======================================2ND USER=========================================================*/}
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
@@ -105,6 +149,47 @@ export const About = () => {
                 </div>
               </div>
             </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+            <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+              <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
+              <ul className="list-disc list-inside text-gray-300 space-y-2">
+                <li>
+                  <strong> B.S. in Computer Science </strong> - XYZ University
+                  (2016-2020)
+                </li>
+                <li>
+                  Relevant Coursework: Data Structures, Web Development, Cloud
+                  Computing...
+                </li>
+              </ul>
+            </div>
+            <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+              <h3 className="text-xl font-bold mb-4"> 💼 Work Experience </h3>
+              <div className="space-y-4 text-gray-300">
+                <div>
+                  <h4 className="font-semibold">
+                    {" "}
+                    Software Engineer at ABC Corp (2020 - Present){" "}
+                  </h4>
+                  <p>
+                    Developed and maintained microservices for cloud-based
+                    applications.
+                  </p>
+                </div>
+
+                <div>
+                  <h4 className="font-semibold">
+                    {" "}
+                    Intern at DEF Startups (2019){" "}
+                  </h4>
+                  <p>
+                    Assisted in building front-end components and integration
+                    REST APIs
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
           </div><br></br>
 
           {/*======================================3RD USER=========================================================*/}
@@ -147,6 +232,48 @@ export const About = () => {
                 </div>
               </div>
             </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+            <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+              <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
+              <ul className="list-disc list-inside text-gray-300 space-y-2">
+                <li>
+                  <strong> B.S. in Computer Science </strong> - XYZ University
+                  (2016-2020)
+                </li>
+                <li>
+                  Relevant Coursework: Data Structures, Web Development, Cloud
+                  Computing...
+                </li>
+              </ul>
+            </div>
+            <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+              <h3 className="text-xl font-bold mb-4"> 💼 Work Experience </h3>
+              <div className="space-y-4 text-gray-300">
+                <div>
+                  <h4 className="font-semibold">
+                    {" "}
+                    Software Engineer at ABC Corp (2020 - Present){" "}
+                  </h4>
+                  <p>
+                    Developed and maintained microservices for cloud-based
+                    applications.
+                  </p>
+                </div>
+
+                <div>
+                  <h4 className="font-semibold">
+                    {" "}
+                    Intern at DEF Startups (2019){" "}
+                  </h4>
+                  <p>
+                    Assisted in building front-end components and integration
+                    REST APIs
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
           </div><br></br>
 
           {/*======================================4TH USER=========================================================*/}
@@ -189,6 +316,49 @@ export const About = () => {
                 </div>
               </div>
             </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+            <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+              <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
+              <ul className="list-disc list-inside text-gray-300 space-y-2">
+                <li>
+                  <strong> B.S. in Computer Science </strong> - XYZ University
+                  (2016-2020)
+                </li>
+                <li>
+                  Relevant Coursework: Data Structures, Web Development, Cloud
+                  Computing...
+                </li>
+              </ul>
+            </div>
+            <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+              <h3 className="text-xl font-bold mb-4"> 💼 Work Experience </h3>
+              <div className="space-y-4 text-gray-300">
+                <div>
+                  <h4 className="font-semibold">
+                    {" "}
+                    Software Engineer at ABC Corp (2020 - Present){" "}
+                  </h4>
+                  <p>
+                    Developed and maintained microservices for cloud-based
+                    applications.
+                  </p>
+                </div>
+
+                <div>
+                  <h4 className="font-semibold">
+                    {" "}
+                    Intern at DEF Startups (2019){" "}
+                  </h4>
+                  <p>
+                    Assisted in building front-end components and integration
+                    REST APIs
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
           </div><br></br>
 
           {/*======================================5TH USER=========================================================*/}
@@ -231,9 +401,8 @@ export const About = () => {
                 </div>
               </div>
             </div>
-          </div><br></br>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
@@ -274,6 +443,12 @@ export const About = () => {
               </div>
             </div>
           </div>
+          </div><br></br>
+
+          
+          
+
+         
         </div>
       </RevealOnScroll>
     </section>
