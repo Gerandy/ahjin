@@ -29,7 +29,7 @@ export const About = () => {
               <img className=" h-40 w-40" src="src/assets/ahjinLogo.png">
               </img>
                 <p className="text-[30px] font-bold mb-8 bg-gradient-to-r from-violet-500 to-purple-400 bg-clip-text text-transparent text-center">
-                  Your Name
+                  Gerandy Ernest J. Buensuceso
                 </p>
             </div>
             <p className="text-gray-300 mb-6">
@@ -121,7 +121,7 @@ export const About = () => {
               <img className=" h-40 w-40" src="src/assets/ahjinLogo.png">
               </img>
                 <p className="text-[30px] font-bold mb-8 bg-gradient-to-r from-violet-500 to-purple-400 bg-clip-text text-transparent text-center">
-                  Your Name
+                  Erwin M. Vallez
                 </p>
             </div>
             <p className="text-gray-300 mb-6">
@@ -210,7 +210,7 @@ export const About = () => {
               <img className=" h-40 w-40" src="src/assets/ahjinLogo.png">
               </img>
                 <p className="text-[30px] font-bold mb-8 bg-gradient-to-r from-violet-500 to-purple-400 bg-clip-text text-transparent text-center">
-                  Your Name
+                  John Car Michael D. Delos Reyes
                 </p>
             </div>
             <p className="text-gray-300 mb-6">
@@ -256,7 +256,7 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong> B.S. in Computer Science </strong> - XYZ University
+                  <strong> St. Thomas Aquinas Academy </strong> - XYZ University
                   (2016-2020)
                 </li>
                 <li>
@@ -270,24 +270,8 @@ export const About = () => {
               <div className="space-y-4 text-gray-300">
                 <div>
                   <h4 className="font-semibold">
-                    {" "}
-                    Software Engineer at ABC Corp (2020 - Present){" "}
+                    <li>Student</li>
                   </h4>
-                  <p>
-                    Developed and maintained microservices for cloud-based
-                    applications.
-                  </p>
-                </div>
-
-                <div>
-                  <h4 className="font-semibold">
-                    {" "}
-                    Intern at DEF Startups (2019){" "}
-                  </h4>
-                  <p>
-                    Assisted in building front-end components and integration
-                    REST APIs
-                  </p>
                 </div>
               </div>
             </div>
@@ -300,7 +284,7 @@ export const About = () => {
               <img className=" h-40 w-40" src="src/assets/ahjinLogo.png">
               </img>
                 <p className="text-[30px] font-bold mb-8 bg-gradient-to-r from-violet-500 to-purple-400 bg-clip-text text-transparent text-center">
-                  Your Name
+                  Noer Jan C. Cleofe
                 </p>
             </div>
             <p className="text-gray-300 mb-6">
@@ -360,24 +344,8 @@ export const About = () => {
               <div className="space-y-4 text-gray-300">
                 <div>
                   <h4 className="font-semibold">
-                    {" "}
-                    Software Engineer at ABC Corp (2020 - Present){" "}
+                   <li> Student </li>
                   </h4>
-                  <p>
-                    Developed and maintained microservices for cloud-based
-                    applications.
-                  </p>
-                </div>
-
-                <div>
-                  <h4 className="font-semibold">
-                    {" "}
-                    Intern at DEF Startups (2019){" "}
-                  </h4>
-                  <p>
-                    Assisted in building front-end components and integration
-                    REST APIs
-                  </p>
                 </div>
               </div>
             </div>
@@ -391,7 +359,7 @@ export const About = () => {
               <img className=" h-40 w-40" src="src/assets/ahjinLogo.png">
               </img>
                 <p className="text-[30px] font-bold mb-8 bg-gradient-to-r from-violet-500 to-purple-400 bg-clip-text text-transparent text-center">
-                  Your Name
+                  Reween O. Rambonanza
                 </p>
             </div>
             <p className="text-gray-300 mb-6">
@@ -451,24 +419,8 @@ export const About = () => {
               <div className="space-y-4 text-gray-300">
                 <div>
                   <h4 className="font-semibold">
-                    {" "}
-                    Software Engineer at ABC Corp (2020 - Present){" "}
+                    <li>Student</li>
                   </h4>
-                  <p>
-                    Developed and maintained microservices for cloud-based
-                    applications.
-                  </p>
-                </div>
-
-                <div>
-                  <h4 className="font-semibold">
-                    {" "}
-                    Intern at DEF Startups (2019){" "}
-                  </h4>
-                  <p>
-                    Assisted in building front-end components and integration
-                    REST APIs
-                  </p>
                 </div>
               </div>
             </div>
