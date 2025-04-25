@@ -65,7 +65,7 @@ export const About = () => {
             {/*======================================1ST USER=========================================================*/}
             <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <div className="flex items-center">
-                <img className=" h-40 w-40 mr-5 rounded-[100px] border-3 border-solid border-purple-600" src="ahjin/assets/gerandy profile.jpg"> 
+                <img className=" h-40 w-40 mr-5 rounded-[100px] border-3 border-solid border-purple-600" src="assets/gerandy profile.jpg"> 
                 </img>
                   <p className="mt-6 text-[30px] font-bold mb-8 bg-gradient-to-r from-violet-500 to-purple-400 bg-clip-text text-transparent text-center">
                     Gerandy Ernest J. Buensuceso
