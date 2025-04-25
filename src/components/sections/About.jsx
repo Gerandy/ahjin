@@ -25,33 +25,29 @@ export const About = () => {
 
   const frontendSkillsCj = [
     "React",
-    "Vue",
-    "TypeScript",
-    "TailwindCSS",
-    "Svelte",
+    "HTML",
+    "CSS",
+    "Bootstrap CSS",
   ];
 
-  const backendSkillsCj = ["Node.js", "Python", "AWS", "MongoDB", "GraphQL"];
+  const backendSkillsCj = ["Node.js", "Python", "Java"];
 
   const frontendSkillsNoer = [
     "React",
-    "Vue",
-    "TypeScript",
-    "TailwindCSS",
-    "Svelte",
+    "HTML",
+    "CSS",
   ];
 
-  const backendSkillsNoer = ["Node.js", "Python", "AWS", "MongoDB", "GraphQL"];
+  const backendSkillsNoer = ["JavaScript", "Node.js"];
 
   const frontendSkillsReween = [
-    "React",
-    "Vue",
-    "TypeScript",
-    "TailwindCSS",
-    "Svelte",
+    "HTML",
+    "CSS",
+    "Bootstrap CSS",
+    "React.js",
   ];
 
-  const backendSkillsReween = ["Node.js", "Python", "AWS", "MongoDB", "GraphQL"];
+  const backendSkillsReween = ["Node.js", "Python", "JavaScript"];
 
   return (
     <section
@@ -68,7 +64,7 @@ export const About = () => {
           {/*======================================1ST USER=========================================================*/}
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
           <div className="flex items-center">
-              <img className=" h-40 w-40 mr-5 rounded-[100px]" src="src/assets/erwinProfile.png"> 
+              <img className=" h-40 w-40 mr-5 rounded-[100px]" src="src/assets/gerandy profile.jpg"> 
               </img>
                 <p className="mt-6 text-[30px] font-bold mb-8 bg-gradient-to-r from-violet-500 to-purple-400 bg-clip-text text-transparent text-center">
                   Gerandy Ernest J. Buensuceso
@@ -238,7 +234,7 @@ export const About = () => {
           {/*======================================3RD USER=========================================================*/}
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
           <div className="flex items-center">
-              <img className=" h-40 w-40 mr-5 rounded-[100px]" src="src/assets/erwinProfile.png">
+              <img className=" h-40 w-40 mr-5 rounded-[100px]" src="src/assets/john profile.jpg">
               </img>
                 <p className="mt-6 text-[30px] font-bold mb-8 bg-gradient-to-r from-violet-500 to-purple-400 bg-clip-text text-transparent text-center">
                   John Car Michael D. Delos Reyes
@@ -320,7 +316,7 @@ export const About = () => {
           {/*======================================4TH USER=========================================================*/}
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
           <div className="flex items-center">
-              <img className=" h-40 w-40 mr-5 rounded-[100px]" src="src/assets/erwinProfile.png">
+              <img className=" h-40 w-40 mr-5 rounded-[100px]" src="src/assets/noer profile.png">
               </img>
                 <p className="mt-6 text-[30px] font-bold mb-8 bg-gradient-to-r from-violet-500 to-purple-400 bg-clip-text text-transparent text-center">
                   Noer Jan C. Cleofe
@@ -369,12 +365,20 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong> B.S. in Computer Science </strong> - XYZ University
-                  (2016-2020)
+                  <strong> Dasmariñas II Central Elementary School </strong> - Elememtary
+                  (2009 - 2015)
                 </li>
                 <li>
-                  Relevant Coursework: Data Structures, Web Development, Cloud
-                  Computing...
+                  <strong> Dasmariñas Integrated High School </strong> - High School
+                  (2015 - 2019)
+                </li>
+                <li>
+                  <strong> Dasmariñas Integrated High School  </strong> - Senior High
+                  (2019 - 2021)
+                </li>
+                <li>
+                  <strong> Cavite State University-Imus Campus  </strong> - College
+                  (2021 - present)
                 </li>
               </ul>
             </div>
@@ -395,14 +399,14 @@ export const About = () => {
           {/*======================================5TH USER=========================================================*/}
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
           <div className="flex items-center">
-              <img className=" h-40 w-40 mr-5 rounded-[100px]" src="src/assets/erwinProfile.png">
+              <img className=" h-40 w-40 mr-5 rounded-[100px]" src="src/assets/reween profile.jpg">
               </img>
                 <p className="mt-6 text-[30px] font-bold mb-8 bg-gradient-to-r from-violet-500 to-purple-400 bg-clip-text text-transparent text-center">
                   Reween O. Rambonanza
                 </p>
             </div>
             <p className="text-gray-300 mb-6">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt possimus fugit similique quisquam quidem. Cumque explicabo doloremque sint perspiciatis obcaecati? Tenetur, omnis eveniet! Placeat asperiores animi distinctio dignissimos laborum fuga!
+            Hello, I'm Reween Rambonanza an aspiring IT currently pursuing my studies in Information Technology. I'm eager about learning how technology works and how it can be used to solve real-world problems. Although I'm still gaining experience, I’m also  exploring areas like web development, frame works such as reactJS, vue, also other fundamental in backend and I enjoy experimenting with new tools and technologies. I believe in continuous learning, and I'm always looking for opportunities to grow, improve my skills, and contribute to meaningful tech projects.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -444,13 +448,22 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong> B.S. in Computer Science </strong> - XYZ University
+                  <strong> Pintong Gubat Elementary School </strong> - Elementary
+                  (2010-2016)
+                </li>
+                <li>
+                  <strong> Paliparan National High School </strong> - High School
                   (2016-2020)
                 </li>
                 <li>
-                  Relevant Coursework: Data Structures, Web Development, Cloud
-                  Computing...
+                  <strong> Paliparan 3 Senior Highschool </strong> - Senior High 
+                  (2020-2022)
                 </li>
+                <li>
+                  <strong> Cavite State University - Imus Campus </strong> - College
+                  (2022-present)
+                </li>
+
               </ul>
             </div>
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
@@ -458,7 +471,7 @@ export const About = () => {
               <div className="space-y-4 text-gray-300">
                 <div>
                   <h4 className="font-semibold">
-                    <li>Student</li>
+                    <li>Elementary tutor</li>
                   </h4>
                 </div>
               </div>
