@@ -65,7 +65,7 @@ export const About = () => {
             {/*======================================1ST USER=========================================================*/}
             <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <div className="flex items-center">
-                <img className=" h-40 w-40 mr-5 rounded-[100px] border-3 border-solid border-purple-600" src="assets/gerandy profile.jpg"> 
+                <img className=" h-40 w-40 mr-5 rounded-[100px] border-3 border-solid border-purple-600" src="src/assets/gerandy profile.jpg"> 
                 </img>
                   <p className="mt-6 text-[30px] font-bold mb-8 bg-gradient-to-r from-violet-500 to-purple-400 bg-clip-text text-transparent text-center">
                     Gerandy Ernest J. Buensuceso
@@ -77,7 +77,7 @@ export const About = () => {
                  <a href="https://www.facebook.com/gerandy.buensuceso" className="ml-3 ">
                       <button
                         type="button" className="  hover:scale-110 px-2 py-2 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
-                          <img src="/assets/1.png" alt="fb" className="mb-2 inline-block rounded h-8 w-8 hover:shadow-[0_2px_8px_rgba(192,132,252,0.4)]"/>
+                          <img src="src/assets/1.png" alt="fb" className="mb-2 inline-block rounded h-8 w-8 hover:shadow-[0_2px_8px_rgba(192,132,252,0.4)]"/>
                       </button>
                   </a>
                   <a href="https://www.instagram.com/_luvsato/">
