@@ -21,6 +21,8 @@ export const MobileMenu = ({menuOpen, setMenuOpen}) => {
             <a href="#home" 
             onClick={() => setMenuOpen(false)}
             className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
+                        transition relative overflow-hidden hover:-translate-y-1.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]
+                        hover:text-violet-500
                 ${
                   menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
                 }        
@@ -30,6 +32,8 @@ export const MobileMenu = ({menuOpen, setMenuOpen}) => {
                   <a href="#About" 
                   onClick={() => setMenuOpen(false)} 
                   className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
+                              transition relative overflow-hidden hover:-translate-y-1.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]
+                              hover:text-violet-500
                     ${
                       menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
                     }        
@@ -39,6 +43,8 @@ export const MobileMenu = ({menuOpen, setMenuOpen}) => {
                   <a href="#Project"
                   onClick={() => setMenuOpen(false)}
                   className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
+                              transition relative overflow-hidden hover:-translate-y-1.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]
+                              hover:text-violet-500
                     ${
                       menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
                     }        
@@ -48,6 +54,8 @@ export const MobileMenu = ({menuOpen, setMenuOpen}) => {
                   <a href="#Contacts"
                   onClick={() => setMenuOpen(false)}
                   className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
+                              transition relative overflow-hidden hover:-translate-y-1.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]
+                              hover:text-violet-500
                     ${
                       menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
                     }        
