@@ -20,19 +20,19 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
                 </div>
 
                 <div className="hidden md:flex items-center space-x-8">
-                  <a href="#home" className="text-gray-300 hover:text-purple-400 transition-colors hover:scale-110">
+                  <a href="#home" className="relative text-gray-300 hover:text-purple-400 transition-colors hover:scale-110 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-purple-400 after:transition-all after:duration-300 hover:after:w-full">
                     {""}
                     Home{""}
                   </a>
-                  <a href="#about" className="text-gray-300 hover:text-purple-400 transition-colors hover:scale-110">
+                  <a href="#about" className="relative text-gray-300 hover:text-purple-400 transition-colors hover:scale-110 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-purple-400 after:transition-all after:duration-300 hover:after:w-full">
                     {""}
                     About{""}
                   </a>
-                  <a href="#projects" className="text-gray-300 hover:text-purple-400 transition-colors hover:scale-110">
+                  <a href="#projects" className="relative text-gray-300 hover:text-purple-400 transition-colors hover:scale-110 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-purple-400 after:transition-all after:duration-300 hover:after:w-full">
                     {""}
                     Project{""}
                   </a>
-                  <a href="#contact" className="text-gray-300 hover:text-purple-400 transition-colors hover:scale-110">
+                  <a href="#contact" className="relative text-gray-300 hover:text-purple-400 transition-colors hover:scale-110 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-purple-400 after:transition-all after:duration-300 hover:after:w-full">
                     {""}
                     Contacts{""}
                   </a>
