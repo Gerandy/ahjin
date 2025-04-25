@@ -83,8 +83,8 @@ export const About = () => {
                   {frontendSkillsGerandy.map((tech, key) => (
                     <span
                       key={key}
-                      className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
-                                    hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition
+                      className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 
+                                    hover:shadow-[0_2px_8px_rgba(192,132,252,0.4)] transition
                     "
                     >
                       {tech}
@@ -99,8 +99,8 @@ export const About = () => {
                   {backendSkillsGerandy.map((tech, key) => (
                     <span
                       key={key}
-                      className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
-                                    hover:shadow-[0_2px_8px_rgba(59,130,2246,0.2)] transition
+                      className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 
+                                    hover:shadow-[0_2px_8px_rgba(192,132,252,0.4)] transition
                     "
                     >
                       {tech}
@@ -172,8 +172,8 @@ export const About = () => {
                   {frontendSkillsErwin.map((tech, key) => (
                     <span
                       key={key}
-                      className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
-                                    hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition
+                      className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 
+                                    hover:shadow-[0_2px_8px_rgba(192,132,252,0.4)] transition
                     "
                     >
                       {tech}
@@ -188,8 +188,8 @@ export const About = () => {
                   {backendSkillsErwin.map((tech, key) => (
                     <span
                       key={key}
-                      className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
-                                    hover:shadow-[0_2px_8px_rgba(59,130,2246,0.2)] transition
+                      className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 
+                                    hover:shadow-[0_2px_8px_rgba(192,132,252,0.4)] transition
                     "
                     >
                       {tech}
@@ -253,8 +253,8 @@ export const About = () => {
                   {frontendSkillsCj.map((tech, key) => (
                     <span
                       key={key}
-                      className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
-                                    hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition
+                      className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 
+                                    hover:shadow-[0_2px_8px_rgba(192,132,252,0.4)] transition
                     "
                     >
                       {tech}
@@ -269,8 +269,8 @@ export const About = () => {
                   {backendSkillsCj.map((tech, key) => (
                     <span
                       key={key}
-                      className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
-                                    hover:shadow-[0_2px_8px_rgba(59,130,2246,0.2)] transition
+                      className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 
+                                    hover:shadow-[0_2px_8px_rgba(192,132,252,0.4)] transition
                     "
                     >
                       {tech}
@@ -335,8 +335,8 @@ export const About = () => {
                   {frontendSkillsNoer.map((tech, key) => (
                     <span
                       key={key}
-                      className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
-                                    hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition
+                      className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 
+                                    hover:shadow-[0_2px_8px_rgba(192,132,252,0.4)] transition
                     "
                     >
                       {tech}
@@ -351,8 +351,8 @@ export const About = () => {
                   {backendSkillsNoer.map((tech, key) => (
                     <span
                       key={key}
-                      className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
-                                    hover:shadow-[0_2px_8px_rgba(59,130,2246,0.2)] transition
+                      className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 
+                                    hover:shadow-[0_2px_8px_rgba(192,132,252,0.4)] transition
                     "
                     >
                       {tech}
@@ -418,8 +418,8 @@ export const About = () => {
                   {frontendSkillsReween.map((tech, key) => (
                     <span
                       key={key}
-                      className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
-                                    hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition
+                      className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 
+                                    hover:shadow-[0_2px_8px_rgba(192,132,252,0.4)] transition
                     "
                     >
                       {tech}
@@ -434,8 +434,8 @@ export const About = () => {
                   {backendSkillsReween.map((tech, key) => (
                     <span
                       key={key}
-                      className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
-                                    hover:shadow-[0_2px_8px_rgba(59,130,2246,0.2)] transition
+                      className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 
+                                    hover:shadow-[0_2px_8px_rgba(192,132,252,0.4)] transition
                     "
                     >
                       {tech}

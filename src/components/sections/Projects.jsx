@@ -13,18 +13,17 @@ export const Projects = () => {
             Featured Projects
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-              <h3 className="text-xl font-bold mb-2"> Cloud Platform</h3>
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 hover:shadow-[0_2px_8px_rgba(192,132,252,0.3)] transition">
+              <h3 className="text-xl font-bold mb-2"> POS System (Computer Hardware)</h3>
               <p className="text-gray-400 mb-4">
-                Scalable cloud infrastructure management with real-time
-                monitoring and automated scaling.
+                A Point of Sale (POS) System specifically designed for a computer hardware store. It aims to streamline sales transactions, manage inventory efficiently, and generate real-time reports for better business decision-making. The system allows staff to record purchases, update stock levels, and track customer orders with ease.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["React", "Node.js", "AWS", "Docker"].map((tech, key) => (
+                {["Java"].map((tech, key) => (
                   <span
                     key={key}
-                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
-                                    hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all
+                    className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 
+                                    hover:shadow-[0_2px_8px_rgba(192,132,252,0.3)] transition-all
                     "
                   >
                     {tech}
@@ -35,7 +34,7 @@ export const Projects = () => {
               <div className="flex justify-between items-center">
                 <a
                   href="#"
-                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                  className="text-purple-400 hover:text-purple-300 transition-colors my-4"
                 >
                   View Project →
                 </a>
@@ -44,26 +43,25 @@ export const Projects = () => {
             <div
               className="
               glass p-6 rounded-xl border border-white/10 
-              hover:-translate-y-1 hover:border-blue-500/30
-              hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)]
+              hover:-translate-y-1 hover:border-purple-500/30
+              hover:shadow-[0_4px_20px_rgba(192,132,252,0.3)]
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">AI Analytics Dashboard</h3>
+              <h3 className="text-xl font-bold mb-2">Payroll System for a Trucking Company</h3>
               <p className="text-gray-400 mb-4">
-                ML-powered data visualization platform with predictive analytics
-                and interactive reports.
+                A Payroll System developed for a trucking company to manage employee salary processes efficiently. The system is designed to handle driver and staff payroll computations based on work hours, and deductions. It improves accurate and timely salary generation, and payslip issuance.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Python", "TensorFlow", "D3.js", "Flask"].map((tech, key) => (
+                {["PHP", "HTML", "CSS","BOOTSTRAP"].map((tech, key) => (
                   <span
                     key={key}
                     className="
-                      bg-blue-500/10 text-blue-500 py-1 px-3 
+                      bg-purple-500/10 text-purple-500 py-1 px-3 
                       rounded-full text-sm
                       transition
-                      hover:bg-blue-500/20 hover:-translate-y-0.5
-                      hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]
+                      hover:bg-purple-500/20 hover:-translate-y-0.5
+                      hover:shadow-[0_2px_8px_rgba(192,132,252,0.3)]
                     "
                   >
                     {tech}
@@ -73,7 +71,7 @@ export const Projects = () => {
               <div className="flex justify-between items-center">
                 <a
                   href="#"
-                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                  className="text-purple-400 hover:text-purple-300 transition-colors my-4"
                 >
                   View Project →
                 </a>
@@ -83,27 +81,26 @@ export const Projects = () => {
             <div
               className="
               glass p-6 rounded-xl border border-white/10 
-              hover:-translate-y-1 hover:border-blue-500/30
-              hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)]
+              hover:-translate-y-1 hover:border-purple-500/30
+              hover:shadow-[0_4px_20px_rgba(192,132,252,0.3)]
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">E-Commerce Web App</h3>
+              <h3 className="text-xl font-bold mb-2">Swift Pay (Payroll System)</h3>
               <p className="text-gray-400 mb-4">
-                Full-stack e-commerce with modern UI, secure payment
-                integration, and customizable product inventory.
+                A Payroll System designed to manage employee, distribute salaries and to calculate such deductions or taxes of the employee. The System also had an issuance of Payslip.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Next.js", "TypeScript", "Stripe", "PostgreSQL"].map(
+                {["HTML", "PHP", "CSS", "BOOTSTRAP"].map(
                   (tech) => (
                     <span
                       key={tech}
                       className="
-                      bg-blue-500/10 text-blue-500 py-1 px-3 
+                      bg-purple-500/10 text-purple-500 py-1 px-3 
                       rounded-full text-sm
                       transition
-                      hover:bg-blue-500/20 hover:-translate-y-0.5
-                      hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]
+                      hover:bg-purple-400/20 hover:-translate-y-0.5
+                      hover:shadow-[0_2px_8px_rgba(192,132,252,0.3)]
                     "
                     >
                       {tech}
@@ -114,7 +111,7 @@ export const Projects = () => {
               <div className="flex justify-between items-center">
                 <a
                   href="#"
-                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                  className="text-purple-400 hover:text-purple-300 transition-colors my-4"
                 >
                   View Project →
                 </a>
@@ -124,8 +121,8 @@ export const Projects = () => {
             <div
               className="
               glass p-6 rounded-xl border border-white/10 
-              hover:-translate-y-1 hover:border-blue-500/30
-              hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)]
+              hover:-translate-y-1 hover:border-purple-500/30
+              hover:shadow-[0_4px_20px_rgba(192,132,252,0.3)]
               transition-all
             "
             >
@@ -139,11 +136,11 @@ export const Projects = () => {
                   <span
                     key={key}
                     className="
-                      bg-blue-500/10 text-blue-500 py-1 px-3 
+                      bg-purple-500/10 text-purple-500 py-1 px-3 
                       rounded-full text-sm
                       transition
-                      hover:bg-blue-500/20 hover:-translate-y-0.5
-                      hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]
+                      hover:bg-purple-500/20 hover:-translate-y-0.5
+                      hover:shadow-[0_2px_8px_rgba(192,132,252,0.3)]
                     "
                   >
                     {tech}
@@ -153,7 +150,7 @@ export const Projects = () => {
               <div className="flex justify-between items-center ">
                 <a
                   href="#"
-                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                  className="text-purple-400 hover:text-purple-300 transition-colors my-4"
                 >
                   View Project →
                 </a>
