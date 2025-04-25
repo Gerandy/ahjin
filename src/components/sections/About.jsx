@@ -118,7 +118,7 @@ export const About = () => {
           {/*======================================2ND USER=========================================================*/}
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <div className="flex items-center">
-              <img className=" h-40 w-40" src="src/assets/ahjinLogo.png">
+              <img className=" h-40 w-40" src="src/assets/erwinProfile.png">
               </img>
                 <p className="text-[30px] font-bold mb-8 bg-gradient-to-r from-violet-500 to-purple-400 bg-clip-text text-transparent text-center">
                   Erwin M. Vallez
@@ -165,13 +165,21 @@ export const About = () => {
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
-                <li>
-                  <strong> B.S. in Computer Science </strong> - XYZ University
-                  (2016-2020)
+              <li>
+                  <strong> Pamplona Elementary School Central Las Piñas City </strong> - Elementary
+                  (2010-2016)
                 </li>
                 <li>
-                  Relevant Coursework: Data Structures, Web Development, Cloud
-                  Computing...
+                  <strong> Las Piñas East National Highschool (Verdant) </strong> - High School
+                   (2016-2020)
+                </li>
+                <li>
+                  <strong> General Pantaleon Garcia Senior High School </strong> - Senior High
+                  (2020-2022)
+                </li>
+                <li>
+                  <strong> Cavite State University - Imus Campus </strong> - College 
+                  (2022-present)
                 </li>
               </ul>
             </div>
@@ -180,24 +188,8 @@ export const About = () => {
               <div className="space-y-4 text-gray-300">
                 <div>
                   <h4 className="font-semibold">
-                    {" "}
-                    Software Engineer at ABC Corp (2020 - Present){" "}
+                  <li>Student</li>
                   </h4>
-                  <p>
-                    Developed and maintained microservices for cloud-based
-                    applications.
-                  </p>
-                </div>
-
-                <div>
-                  <h4 className="font-semibold">
-                    {" "}
-                    Intern at DEF Startups (2019){" "}
-                  </h4>
-                  <p>
-                    Assisted in building front-end components and integration
-                    REST APIs
-                  </p>
                 </div>
               </div>
             </div>
@@ -269,7 +261,7 @@ export const About = () => {
                 </li>
                 <li>
                   <strong> Cavite State University - Imus Campus </strong> - College 
-                  (2022-2025)
+                  (2022-present)
                 </li>
               </ul>
             </div>
