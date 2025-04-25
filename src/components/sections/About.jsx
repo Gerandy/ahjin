@@ -25,9 +25,12 @@ export const About = () => {
 
           {/*======================================1ST USER=========================================================*/}
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
-            <div className="flex items-center">
-              <img className=" h-40 w-40" src="src/assets/ahjinLogo.png"></img>
-              <p className="text-[30px] font-bold mb-8 bg-gradient-to-r from-violet-500 to-purple-400 bg-clip-text text-transparent text-center">Gerandy Ernest J. Buensuceso</p>
+          <div className="flex items-center">
+              <img className=" h-40 w-40" src="src/assets/ahjinLogo.png">
+              </img>
+                <p className="text-[30px] font-bold mb-8 bg-gradient-to-r from-violet-500 to-purple-400 bg-clip-text text-transparent text-center">
+                  Your Name
+                </p>
             </div>
             <p className="text-gray-300 mb-6">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, harum delectus porro tempora laborum numquam totam ducimus voluptatibus similique eum minus adipisci ea ut earum quasi suscipit amet dolores. Delectus.
@@ -114,9 +117,15 @@ export const About = () => {
           
           {/*======================================2ND USER=========================================================*/}
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
+            <div className="flex items-center">
+              <img className=" h-40 w-40" src="src/assets/ahjinLogo.png">
+              </img>
+                <p className="text-[30px] font-bold mb-8 bg-gradient-to-r from-violet-500 to-purple-400 bg-clip-text text-transparent text-center">
+                  Your Name
+                </p>
+            </div>
             <p className="text-gray-300 mb-6">
-              Passionate developer with expertise in building scalable web
-              applications and creating innovative solutions.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum omnis et laboriosam, sit odio reiciendis at. Itaque beatae architecto veritatis minima deserunt perspiciatis, omnis corporis voluptatem, suscipit eum nostrum. Dolorem?
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -197,9 +206,15 @@ export const About = () => {
 
           {/*======================================3RD USER=========================================================*/}
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
+          <div className="flex items-center">
+              <img className=" h-40 w-40" src="src/assets/ahjinLogo.png">
+              </img>
+                <p className="text-[30px] font-bold mb-8 bg-gradient-to-r from-violet-500 to-purple-400 bg-clip-text text-transparent text-center">
+                  Your Name
+                </p>
+            </div>
             <p className="text-gray-300 mb-6">
-              Passionate developer with expertise in building scalable web
-              applications and creating innovative solutions.
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, totam necessitatibus. Neque, ducimus ex est earum praesentium placeat quidem ad, error assumenda obcaecati hic blanditiis, ab temporibus eius ea deleniti!.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -281,9 +296,15 @@ export const About = () => {
 
           {/*======================================4TH USER=========================================================*/}
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
+          <div className="flex items-center">
+              <img className=" h-40 w-40" src="src/assets/ahjinLogo.png">
+              </img>
+                <p className="text-[30px] font-bold mb-8 bg-gradient-to-r from-violet-500 to-purple-400 bg-clip-text text-transparent text-center">
+                  Your Name
+                </p>
+            </div>
             <p className="text-gray-300 mb-6">
-              Passionate developer with expertise in building scalable web
-              applications and creating innovative solutions.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quas est tempore recusandae quam facere. Repellendus alias obcaecati voluptatum, eum libero sint provident! Cupiditate possimus enim mollitia qui doloremque rem?
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -366,9 +387,15 @@ export const About = () => {
 
           {/*======================================5TH USER=========================================================*/}
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
+          <div className="flex items-center">
+              <img className=" h-40 w-40" src="src/assets/ahjinLogo.png">
+              </img>
+                <p className="text-[30px] font-bold mb-8 bg-gradient-to-r from-violet-500 to-purple-400 bg-clip-text text-transparent text-center">
+                  Your Name
+                </p>
+            </div>
             <p className="text-gray-300 mb-6">
-              Passionate developer with expertise in building scalable web
-              applications and creating innovative solutions.
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt possimus fugit similique quisquam quidem. Cumque explicabo doloremque sint perspiciatis obcaecati? Tenetur, omnis eveniet! Placeat asperiores animi distinctio dignissimos laborum fuga!
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
