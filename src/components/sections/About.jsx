@@ -1,7 +1,19 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
-  const frontendSkills = [
+  const frontendSkillsGerandy = [
+    "React",
+    "TailWindCSS",
+    "TypeScript",
+    "Html",
+    "CSS",
+    "Bootstrap",
+    
+  ];
+
+  const backendSkillsGerandy = ["Node.js", "Python", "Java", "Java Script", "MySQL", "C++"];
+
+  const frontendSkillsErwin = [
     "React",
     "Vue",
     "TypeScript",
@@ -9,7 +21,37 @@ export const About = () => {
     "Svelte",
   ];
 
-  const backendSkills = ["Node.js", "Python", "AWS", "MongoDB", "GraphQL"];
+  const backendSkillsErwin = ["Node.js", "Python", "AWS", "MongoDB", "GraphQL"];
+
+  const frontendSkillsCj = [
+    "React",
+    "Vue",
+    "TypeScript",
+    "TailwindCSS",
+    "Svelte",
+  ];
+
+  const backendSkillsCj = ["Node.js", "Python", "AWS", "MongoDB", "GraphQL"];
+
+  const frontendSkillsNoer = [
+    "React",
+    "Vue",
+    "TypeScript",
+    "TailwindCSS",
+    "Svelte",
+  ];
+
+  const backendSkillsNoer = ["Node.js", "Python", "AWS", "MongoDB", "GraphQL"];
+
+  const frontendSkillsReween = [
+    "React",
+    "Vue",
+    "TypeScript",
+    "TailwindCSS",
+    "Svelte",
+  ];
+
+  const backendSkillsReween = ["Node.js", "Python", "AWS", "MongoDB", "GraphQL"];
 
   return (
     <section
@@ -40,7 +82,7 @@ export const About = () => {
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
                 <h3 className="text-xl font-bold mb-4"> Frontend</h3>
                 <div className="flex flex-wrap gap-2">
-                  {frontendSkills.map((tech, key) => (
+                  {frontendSkillsGerandy.map((tech, key) => (
                     <span
                       key={key}
                       className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
@@ -56,7 +98,7 @@ export const About = () => {
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
                 <h3 className="text-xl font-bold mb-4"> Backend</h3>
                 <div className="flex flex-wrap gap-2">
-                  {backendSkills.map((tech, key) => (
+                  {backendSkillsGerandy.map((tech, key) => (
                     <span
                       key={key}
                       className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
@@ -73,13 +115,21 @@ export const About = () => {
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
-                <li>
-                  <strong> B.S. in Computer Science </strong> - XYZ University
-                  (2016-2020)
+              <li>
+                  <strong> Batong Dalig Elementary School</strong> - Elementary
+                  (2010-2016)
                 </li>
                 <li>
-                  Relevant Coursework: Data Structures, Web Development, Cloud
-                  Computing...
+                  <strong> Emiliano Tria Tirona Memorial Integrated High School </strong> - High School
+                   (2016-2020)
+                </li>
+                <li>
+                  <strong> Emiliano Tria Tirona Memorial Integrated High School </strong> - Senior High
+                  (2020-2022)
+                </li>
+                <li>
+                  <strong> Cavite State University - Imus Campus </strong> - College 
+                  (2022- present) 
                 </li>
               </ul>
             </div>
@@ -88,25 +138,14 @@ export const About = () => {
               <div className="space-y-4 text-gray-300">
                 <div>
                   <h4 className="font-semibold">
-                    {" "}
-                    Software Engineer at ABC Corp (2020 - Present){" "}
+                    Mcdonalds (2023 - 2023)
                   </h4>
                   <p>
-                    Developed and maintained microservices for cloud-based
-                    applications.
+                    Cooks expertly and efficiently in a fast-paced environment.
                   </p>
                 </div>
 
-                <div>
-                  <h4 className="font-semibold">
-                    {" "}
-                    Intern at DEF Startups (2019){" "}
-                  </h4>
-                  <p>
-                    Assisted in building front-end components and integration
-                    REST APIs
-                  </p>
-                </div>
+                
               </div>
             </div>
           </div>
@@ -132,7 +171,7 @@ export const About = () => {
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
                 <h3 className="text-xl font-bold mb-4"> Frontend</h3>
                 <div className="flex flex-wrap gap-2">
-                  {frontendSkills.map((tech, key) => (
+                  {frontendSkillsErwin.map((tech, key) => (
                     <span
                       key={key}
                       className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
@@ -148,7 +187,7 @@ export const About = () => {
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
                 <h3 className="text-xl font-bold mb-4"> Backend</h3>
                 <div className="flex flex-wrap gap-2">
-                  {backendSkills.map((tech, key) => (
+                  {backendSkillsErwin.map((tech, key) => (
                     <span
                       key={key}
                       className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
@@ -213,7 +252,7 @@ export const About = () => {
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
                 <h3 className="text-xl font-bold mb-4"> Frontend</h3>
                 <div className="flex flex-wrap gap-2">
-                  {frontendSkills.map((tech, key) => (
+                  {frontendSkillsCj.map((tech, key) => (
                     <span
                       key={key}
                       className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
@@ -229,7 +268,7 @@ export const About = () => {
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
                 <h3 className="text-xl font-bold mb-4"> Backend</h3>
                 <div className="flex flex-wrap gap-2">
-                  {backendSkills.map((tech, key) => (
+                  {backendSkillsCj.map((tech, key) => (
                     <span
                       key={key}
                       className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
@@ -295,7 +334,7 @@ export const About = () => {
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
                 <h3 className="text-xl font-bold mb-4"> Frontend</h3>
                 <div className="flex flex-wrap gap-2">
-                  {frontendSkills.map((tech, key) => (
+                  {frontendSkillsNoer.map((tech, key) => (
                     <span
                       key={key}
                       className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
@@ -311,7 +350,7 @@ export const About = () => {
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
                 <h3 className="text-xl font-bold mb-4"> Backend</h3>
                 <div className="flex flex-wrap gap-2">
-                  {backendSkills.map((tech, key) => (
+                  {backendSkillsNoer.map((tech, key) => (
                     <span
                       key={key}
                       className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
@@ -370,7 +409,7 @@ export const About = () => {
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
                 <h3 className="text-xl font-bold mb-4"> Frontend</h3>
                 <div className="flex flex-wrap gap-2">
-                  {frontendSkills.map((tech, key) => (
+                  {frontendSkillsReween.map((tech, key) => (
                     <span
                       key={key}
                       className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
@@ -386,7 +425,7 @@ export const About = () => {
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
                 <h3 className="text-xl font-bold mb-4"> Backend</h3>
                 <div className="flex flex-wrap gap-2">
-                  {backendSkills.map((tech, key) => (
+                  {backendSkillsReween.map((tech, key) => (
                     <span
                       key={key}
                       className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
