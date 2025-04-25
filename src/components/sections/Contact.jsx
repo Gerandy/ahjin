@@ -92,6 +92,8 @@ export const Contact = () => {
           </form>
         </div>
       </RevealOnScroll>
+      <div></div>
     </section>
+    
   );
 };
