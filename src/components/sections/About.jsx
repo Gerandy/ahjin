@@ -70,6 +70,8 @@ export const About = () => {
                   Gerandy Ernest J. Buensuceso
                 </p>
             </div>
+            <br></br>
+            <div>Connect with me</div>
             <p className="text-gray-300 mb-6">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, harum delectus porro tempora laborum numquam totam ducimus voluptatibus similique eum minus adipisci ea ut earum quasi suscipit amet dolores. Delectus.
             </p>
@@ -478,11 +480,6 @@ export const About = () => {
             </div>
           </div>
           </div><br></br>
-
-          
-          
-
-         
         </div>
       </RevealOnScroll>
     </section>
