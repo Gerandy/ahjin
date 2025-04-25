@@ -16,6 +16,7 @@ function App() {
 
   return (
     <>
+  
       {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)} />}{" "}
       <div
         className={`min-h-screen transition-opacity duration-700 ${
@@ -30,6 +31,7 @@ function App() {
         <Contact />
         <Footer />
       </div>
+      
     </>
   );
 }
