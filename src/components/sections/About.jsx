@@ -245,7 +245,7 @@ export const About = () => {
                 </p>
             </div>
             <p className="text-gray-300 mb-6">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, totam necessitatibus. Neque, ducimus ex est earum praesentium placeat quidem ad, error assumenda obcaecati hic blanditiis, ab temporibus eius ea deleniti!.
+              I'm John Car Michael D. Delos Reyes, I'm 22 years old
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -327,7 +327,7 @@ export const About = () => {
                 </p>
             </div>
             <p className="text-gray-300 mb-6">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quas est tempore recusandae quam facere. Repellendus alias obcaecati voluptatum, eum libero sint provident! Cupiditate possimus enim mollitia qui doloremque rem?
+            Im an IT student who's still learning the fundamentals of coding.  Even if I might not be an expert just yet, I'm willing to develop and advance my abilities. I like experimenting with new technologies, figuring out issues, and coming up with creative fixes that simplify daily chores and I welcome any difficulties that may help me improve gradually
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
