@@ -256,12 +256,20 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong> St. Thomas Aquinas Academy </strong> - XYZ University
-                  (2016-2020)
+                  <strong> St. Thomas Aquinas Academy </strong> - Elementary
+                  (2010-2016)
                 </li>
                 <li>
-                  Relevant Coursework: Data Structures, Web Development, Cloud
-                  Computing...
+                  <strong> St. Matthew Academy of Cavite </strong> - High School
+                   (2016-2020)
+                </li>
+                <li>
+                  <strong> St. Matthew Academy of Cavite </strong> - Senior High
+                  (2020-2022)
+                </li>
+                <li>
+                  <strong> Cavite State University - Imus Campus </strong> - College 
+                  (2022-2025)
                 </li>
               </ul>
             </div>
